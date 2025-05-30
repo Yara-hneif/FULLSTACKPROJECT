@@ -1,0 +1,71 @@
+ body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to right, #fff5f7, #e3f2fd);
+      min-height: 100vh;
+      padding-top: 60px;
+      overflow-x: hidden;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .card {
+      border-radius: 18px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .email, .github {
+      font-size: 0.95rem;
+      color: #6c757d;
+    }
+
+    .btn-glow {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-glow::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.4), transparent);
+      transform: scale(0);
+      transition: transform 0.4s ease;
+    }
+
+    .btn-glow:hover::after {
+      transform: scale(1);
+    }
+
+    .intro {
+      font-size: 1.2rem;
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+      animation: fadeInUp 1.2s ease forwards;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
