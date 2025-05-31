@@ -69,3 +69,23 @@
       font-weight: 700;
       margin-bottom: 20px;
     }
+    
+    /* زر حديث وجذاب */
+.btn-modern {
+  background: linear-gradient(135deg, #d8b4f8 0%, #fbc2eb 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 32px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(215, 161, 245, 0.3);
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.5px;
+  font-size: 0.95rem;
+}
+.btn-modern:hover {
+  background: linear-gradient(to right, #a6c1ee, #fbc2eb);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(166, 193, 238, 0.6);
+}
