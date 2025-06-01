@@ -1,12 +1,7 @@
-# FULLSTACKPROJECT
+# 👥 Meet The Team
 
-Final fullstack project repository for course submission. Includes HTML, CSS, JS + Bootstrap and GitHub Pages deployment.
+Welcome to the **Meet The Team** component – a simple and elegant module designed to present team members with clarity and style.
 
-## Team Members
+## 🌐 Live Website
 
-- Yara Hneif – [GitHub](https://github.com/Yara-hneif)
-- Fadi Eilabouni – [GitHub](https://github.com/Fadi5801)
-
-## Live Website
-
-🔗 https://Yara-hneif.github.io/FULLSTACKPROJECT/
+🔗 [https://Yara-hneif.github.io/meet-the-team/](https://Yara-hneif.github.io/meet-the-team/)
